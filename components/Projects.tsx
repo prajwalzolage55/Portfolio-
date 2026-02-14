@@ -20,7 +20,7 @@ const projects = [
         link: "https://nanopdf-3.onrender.com/",
         github: "https://github.com/prajwalzolage55/NanoPDF",
         tech: ["Python", "Flask", "JavaScript", "Bootstrap"],
-        image: "/projects/nanopdf.png"
+        image: "/projects/NanoPDF.png"
     },
 ];
 
