@@ -47,7 +47,7 @@ export default function About() {
                                 <p className="text-gray-400">Terna Engineering College, Nerul</p>
                                 <div className="flex justify-between items-center mt-2 text-sm text-gray-500">
                                     <span>2nd Year Student</span>
-                                    <span>CGPA: 9.4 (1st Year)</span>
+                                    <span>CGPA: 8.94 (1st Year)</span>
                                 </div>
                             </div>
                         </div>
