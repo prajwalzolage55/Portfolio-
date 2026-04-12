@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Scrollytelling Portfolio",
   description: "A high-end personal portfolio with scroll-linked animations.",
+  verification: {
+    google: "eb71be0c0bbfc33a",
+  },
 };
 
 export default function RootLayout({

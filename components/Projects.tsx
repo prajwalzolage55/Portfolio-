@@ -22,6 +22,24 @@ const projects = [
         tech: ["Python", "Flask", "JavaScript", "Bootstrap"],
         image: "/projects/NanoPDF.png"
     },
+    {
+        title: "SchemeSaathi",
+        category: "Government Scheme Finder",
+        description: "A web application that helps Indian citizens find government schemes they are eligible for based on their personal details. The platform uses a simple form and AI-based matching to suggest relevant welfare schemes within seconds.",
+        link: "https://scheme-finder-urxl.onrender.com",
+        github: "https://github.com/prajwalzolage55/scheme_finder",
+        tech: ["Python", "Flask", "JavaScript", "HTML", "CSS"],
+        image: "/projects/Schemesaathi.png"
+    },
+    {
+        title: "Rakhndar",
+        category: "AI Engineer Assistant",
+        description: "An AI-powered assistant designed for developers and AI enthusiasts to explore concepts like Agentic AI, RAG systems, and Machine Learning. It provides an interactive chat interface with intelligent responses and structured topic guidance.",
+        link: "https://ai-chat-1-iv0u.onrender.com",
+        github: "https://github.com/prajwalzolage55/AI_chat",
+        tech: ["Python", "Flask", "JavaScript", "HTML", "CSS", "LLM APIs"],
+        image: "/projects/Rakhandar.png"
+    },
 ];
 
 export default function Projects() {
