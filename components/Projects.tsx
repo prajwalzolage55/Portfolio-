@@ -8,9 +8,9 @@ const projects = [
         title: "DataLens-AI",
         category: "AI Analytics Agent",
         description: "An AI-powered data analytics agent that transforms raw datasets into actionable insights through intelligent analysis and visualization. Features automated data analysis, intelligent visualization, and Gemini API integration.",
-        link: "https://huggingface.co/spaces/adinathjagtap/ai-data-analysis-agent",
+        link: "https://datalens-v2-tu98.onrender.com/",
         github: "https://github.com/prajwalzolage55/DataLens-AI-Intelligent-Data-Analytics-Agent",
-        tech: ["Python", "Pandas", "Gemini API", "Streamlit"],
+        tech: ["Python", "Pandas", "Gemini API", "Flask"],
         image: "/projects/datalens.png"
     },
     {
@@ -44,7 +44,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="min-h-screen bg-[#121212] py-24 px-4 md:px-12 relative z-20">
+        <section id="projects" aria-label="Selected Projects" className="min-h-screen bg-[#121212] py-24 px-4 md:px-12 relative z-20">
             <div className="max-w-7xl mx-auto">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}

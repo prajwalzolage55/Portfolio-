@@ -4,7 +4,7 @@ import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 
 export default function Experience() {
     return (
-        <section className="py-24 px-4 md:px-12 bg-[#121212] relative z-20 border-t border-white/5">
+        <section id="experience" aria-label="Community and Leadership Experience" className="py-24 px-4 md:px-12 bg-[#121212] relative z-20 border-t border-white/5">
             <div className="max-w-7xl mx-auto">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
