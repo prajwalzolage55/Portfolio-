@@ -59,7 +59,12 @@ const personSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Prajwal Zolage — Portfolio",
+  name: "Prajwal Zolage",
+  alternateName: [
+    "Prajwal Zolage Portfolio",
+    "Prajwal Zolage — Portfolio",
+    "Prajwal Zolage Website",
+  ],
   url: SITE_URL,
   description:
     "Portfolio of Prajwal Zolage — Software Developer and AI/ML Enthusiast",
