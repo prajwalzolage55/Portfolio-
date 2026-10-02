@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import InteractiveAvatar from "@/components/InteractiveAvatar";
 
 export default function About() {
     return (
@@ -16,7 +16,7 @@ export default function About() {
                     About Me
                 </motion.h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                     {/* Bio & Education */}
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}
@@ -48,22 +48,14 @@ export default function About() {
                         </div>
                     </motion.div>
 
-                    {/* Profile Image */}
+                    {/* Interactive 3D Character Viewport */}
                     <motion.div
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
-                        className="flex justify-center items-center"
+                        className="flex justify-center items-center relative w-full"
                     >
-                        <div className="w-72 h-72 md:w-96 md:h-96 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden relative shadow-2xl group hover:border-white/20 transition-all duration-300">
-                            <Image
-                                src="/profile.jpg"
-                                alt="Prajwal Zolage"
-                                fill
-                                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                                priority
-                            />
-                        </div>
+                        <InteractiveAvatar />
                     </motion.div>
                 </div>
             </div>

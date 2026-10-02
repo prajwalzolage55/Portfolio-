@@ -68,7 +68,7 @@ export default function Ventures() {
 
                             <div className="flex flex-wrap gap-4 mt-8">
                                 <a
-                                    href="https://chav-mayechi.web.app/"
+                                    href="https://chavmayechifoods.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg font-medium transition-colors flex items-center"

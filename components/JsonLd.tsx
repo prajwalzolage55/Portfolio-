@@ -21,6 +21,10 @@ const personSchema = {
     "@type": "EducationalOrganization",
     name: "Terna Engineering College, Nerul",
   },
+  award: [
+    "Second Position – Reverse Coding Competition at Avalon Techfest 2026, Terna Engineering College",
+    "Google AI Agents Intensive Capstone Submitter (DataLens-AI) – Kaggle 2025"
+  ],
   knowsAbout: [
     "Python",
     "C",

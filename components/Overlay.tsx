@@ -23,7 +23,7 @@ export default function Overlay() {
             >
                 <div>
                     <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-4">
-                        Hello, I'm <span className="text-gray-400">Prajwal</span>.
+                        Hello, I&apos;m <span className="text-gray-400">Prajwal</span>.
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-500 font-light">AI & Data Science Student.</p>
                 </div>
