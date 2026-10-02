@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
 
-const SITE_URL = "https://prajwalzolage-portfolio-hrfj.vercel.app";
+const SITE_URL = "https://prajwalzolage.syntaxsyndicate.co.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

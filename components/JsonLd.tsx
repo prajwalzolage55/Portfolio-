@@ -1,4 +1,4 @@
-const SITE_URL = "https://prajwalzolage-portfolio-hrfj.vercel.app";
+const SITE_URL = "https://prajwalzolage.syntaxsyndicate.co.in";
 
 const personSchema = {
   "@context": "https://schema.org",
