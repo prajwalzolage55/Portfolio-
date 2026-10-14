@@ -34,7 +34,7 @@ const projects = [
     {
         title: "Rakhndar",
         category: "AI Engineer Assistant",
-        description: "An AI-powered assistant designed for developers and AI enthusiasts to explore concepts like Agentic AI, RAG systems, and Machine Learning. It provides an interactive chat interface with intelligent responses and structured topic guidance.",
+        description: "An AI-powered assistant designed for developers and AI enthusiasts to explore concepts like Agentic AI, and Machine Learning. It provides an interactive chat interface with intelligent responses and structured topic guidance.",
         link: "https://ai-chat-1-iv0u.onrender.com",
         github: "https://github.com/prajwalzolage55/AI_chat",
         tech: ["Python", "Flask", "JavaScript", "HTML", "CSS", "LLM APIs"],

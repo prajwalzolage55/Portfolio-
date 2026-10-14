@@ -214,22 +214,17 @@ export default function InteractiveAvatar({ className = "" }: InteractiveAvatarP
                             e.stopPropagation();
                             triggerWave();
                         }}
-                        className={`px-4 py-2 rounded-full text-xs font-mono font-bold tracking-wide flex items-center space-x-2 transition-all duration-300 ${
-                            isWaving
+                        className={`px-4 py-2 rounded-full text-xs font-mono font-bold tracking-wide flex items-center space-x-2 transition-all duration-300 ${isWaving
                                 ? "bg-amber-400 text-black shadow-[0_0_20px_rgba(245,158,11,0.6)] scale-105"
                                 : "bg-black/70 hover:bg-black/90 text-white border border-white/20 backdrop-blur-md hover:border-amber-400/50"
-                        }`}
+                            }`}
                         aria-label="Make Prajwal wave his hand"
                     >
                         <span className={`text-sm ${isWaving ? "animate-bounce" : ""}`}>👋</span>
                         <span>{isWaving ? "Waving back!" : "Say Hi to Me!"}</span>
                     </button>
 
-                    {/* Status Badge */}
-                    <div className="px-3 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-mono text-gray-300 hidden sm:flex items-center space-x-2">
-                        <span className={`w-2 h-2 rounded-full transition-colors duration-300 ${isWaving ? "bg-amber-400 animate-ping" : "bg-emerald-400"}`} />
-                        <span>{isWaving ? "Saying Hi!" : "Coding with AI"}</span>
-                    </div>
+
                 </div>
 
                 {/* Subtle Click Hint on Hover */}
